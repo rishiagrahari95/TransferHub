@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Transfer Hub</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Transfer Hub</h1>
+            <p>Send files directly to your PC</p>
+        </header>
+
+        <div class="auth-section">
+            <input type="password" id="pin-input" placeholder="Enter Access PIN" required>
+        </div>
+
+        <div class="drop-zone" id="drop-zone">
+            <div class="drop-zone-text">
+                <span class="icon">📁</span>
+                <p>Tap to select or drop files here</p>
+            </div>
+            <input type="file" id="file-input" multiple hidden>
+        </div>
+
+        <div class="progress-container" id="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+            <span class="progress-text" id="progress-text">0%</span>
+        </div>
+
+        <div id="status-message"></div>
+
+        <div class="file-list-container">
+            <h3>Recent Uploads</h3>
+            <ul id="file-list"></ul>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
