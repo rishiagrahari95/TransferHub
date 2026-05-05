@@ -7,8 +7,9 @@ from werkzeug.utils import secure_filename
 import qrcode
 
 # --- congfig ---
-UPLOAD_FOLDER = 'uploads'
-LOG_FOLDER = 'logs'
+desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop', 'WiFi_Uploads')
+
+UPLOAD_FOLDER = desktop_pathLOG_FOLDER = 'logs'
 ACCESS_PIN = "2026" 
 MAX_CONTENT_LENGTH = 5 * 1024 * 1024 * 1024 
 
