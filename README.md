@@ -24,7 +24,7 @@ Bypass the cloud entirely. **TransferHub** allows you to seamlessly send massive
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/TransferHub.git](https://github.com/yourusername/TransferHub.git)
+   git clone https://github.com/rishiagrahari95/TransferHub.git]
    cd TransferHub
    ```
 
