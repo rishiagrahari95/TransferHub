@@ -9,7 +9,8 @@ import qrcode
 # --- congfig ---
 desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop', 'WiFi_Uploads')
 
-UPLOAD_FOLDER = desktop_pathLOG_FOLDER = 'logs'
+UPLOAD_FOLDER = desktop_path
+LOG_FOLDER = 'logs'
 ACCESS_PIN = "2026" 
 MAX_CONTENT_LENGTH = 5 * 1024 * 1024 * 1024 
 
