@@ -19,7 +19,7 @@ Bypass the cloud entirely. **TransferHub** allows you to seamlessly send massive
 
 ## 📸 Screenshots
 <img width="1920" height="1080" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/c9b0078e-cbe7-4518-b601-960360913c2d" />
-<img width="1080" height="2408" alt="Screenshot_20260506_020012" src="https://github.com/user-attachments/assets/c5be26df-5f20-4425-b3eb-e04a14e43bc3" />
+<img width="324" height="722.4" alt="Screenshot_20260506_020012" src="https://github.com/user-attachments/assets/c5be26df-5f20-4425-b3eb-e04a14e43bc3" />
 
 
 ## 📦 Installation & Setup
